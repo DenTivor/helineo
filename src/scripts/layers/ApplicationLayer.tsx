@@ -4,6 +4,7 @@ import {modalLayerSettings} from 'scripts/layers/ModalLayer';
 
 export default class ApplicationLayer extends BaseComponent {
     modalLayer: any;
+    factoryMap: any;
 
     constructor(settings: any, props: any) {
         super(settings, props);
