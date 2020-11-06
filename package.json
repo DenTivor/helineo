@@ -37,7 +37,7 @@
     "typescript": "^3.3.3",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14",
+    "webpack-dev-server": "^3.11.0",
     "webpack-fix-style-only-entries": "^0.2.0",
     "webpack-hmr": "^1.0.2"
   },
@@ -46,7 +46,7 @@
     "@types/jquery": "^3.3.29",
     "@types/lodash": "^4.14.121",
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
-    "lodash": "^4.17.11"
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20"
   }
 }
