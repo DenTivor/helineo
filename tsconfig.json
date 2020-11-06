@@ -1,0 +1,77 @@
+// {
+//     "compilerOptions": {
+//       "sourceMap": true,
+//       "target": "es5",
+//       "module": "es6",
+//       "moduleResolution": "node",
+//       "experimentalDecorators": true,
+//       "declaration": false,
+//       "removeComments": true,
+//       "noImplicitReturns": true,
+//       "suppressImplicitAnyIndexErrors": true,
+//       "noUnusedLocals": true,
+//       "strict": true,
+//       "outDir": "devBuild",
+//       "lib": ["es6", "es7", "dom"],
+//       "baseUrl": "src",
+//       "paths": {
+//         "app/*": ["./scripts/app/*"]
+//       },
+//       "jsx": "react",
+//     },
+//     "exclude": ["devBuild", "node_modules"]
+//   }
+  
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "declaration": false,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "outDir": "devBuild",
+    "lib": ["es6", "es7", "dom"],
+    "baseUrl": "src/",
+    "paths": {
+        "scripts/*": ["scripts/*"]
+      },
+    "jsx": "react",
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": ["devBuild", "node_modules"]
+}
+
+// {
+//   "compilerOptions": {
+//     "jsx": "react",
+//     "rootDir": "src",
+//     "module": "commonjs",
+//     "target": "es5",
+//     "lib": [
+//       "es6",
+//       "dom"
+//     ],
+//     "sourceMap": true,
+//     "moduleResolution": "node",
+//     "noImplicitReturns": true,
+//     "noImplicitThis": true,
+//     "noImplicitAny": true,
+//     "strictNullChecks": true
+//   },
+//   "include": [
+//     "./src"
+//   ],
+//   "exclude": [
+//     "node_modules",
+//     "devBuild"
+//   ]
+// }
