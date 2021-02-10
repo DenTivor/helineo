@@ -46,6 +46,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'devBuild'),
     publicPath: '/devBuild/',
+    // publicPath: './',
     filename: '[name].bundle.js'
   },
   resolve: {
@@ -74,12 +75,13 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(svg)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
-              name: 'images/[name].[ext]'
+              name: 'images/icons/[name].[ext]',
+              outputPath: '../'
             }
           }
         ],

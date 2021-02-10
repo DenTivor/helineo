@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Cormorant+Infant|EB+Garamond|Gabriela|Kelly+Slab|Lobster|Marck+Script|Open+Sans|Open+Sans+Condensed:300|Oswald|Playfair+Display|Poiret+One|Roboto|Roboto+Condensed|Roboto+Slab')
+
+#constructor
+    display flex
+    background-color white
+
+    .deleteBtn
+        background-color #ffffff
+        border-radius 50%
+        color #1c141c
+        justify-content center
+        align-items center
+        font-weight bold
+        font-family OpenSans-Regular, Arial, Verdana
+    .left
+        padding 30px 0
+        background-color #ffffff
+        width 730px
+        float left
+    .right
+        margin 0 0px 40px 30px
+        width 300px
+        float left
+        p
+            margin 20px 0px 15px !important
+            padding 0
+            font-family OpenSans-Bold, OpenSans-Regular, Arial, Verdana
+            font-size 14px
+        li
+            height 60px
+            width 25%
+            display inline-block
+            cursor pointer
+            padding 2%
+            color #e7e7e7
+            text-align center
+            box-sizing border-box
+            border 1px solid #1c141c
+            &:hover
+                border 1px solid #404040
+            img
+                max-width 100%
+                max-height 100%
+        ul
+            background #1c141c
+            margin 0px 0 0 0
+            max-height 300px
+            overflow-y auto
+            width 100%
+            padding 10px
+            box-sizing border-box
+            &.colum-1
+                li
+                    height 40px
+                    width 95%
+                    display inline-block
+                    cursor pointer
+                    margin 2%
+                    color #e7e7e7
+            &.colum-2
+                li
+                    height 40px
+                    width 90%
+                    display inline-block
+                    cursor pointer
+                    margin 2%
+                    color #e7e7e7
+                    font-size 22px
+        & > .button
+            width 100%
+            background #0c4473
+            padding 10px 10px 10px 10px
+            border-radius 4px
+            border none
+            text-align left
+            cursor pointer
+            span
+                font-family OpenSans-Regular, Arial, Verdana
+                font-size 16px
+                text-align left
+                color #fff
+            img
+                float left
+                margin-right 25px
+                width 25px
+        & > div
+            &.button
+                width auto
+                display flex
+                justify-content left
+                text-align left
+                background #2a77b9
+                padding 10px 10px 10px 10px
+                border-radius 4px
+            &.button-zakaz
+                width auto
+                display flex
+                justify-content left
+                text-align left
+                background #2a77b9
+                padding 10px 10px 10px 10px
+                border-radius 4px
+        & > .button-zakaz
+            width 100%
+            background #ec0808
+            padding 10px 10px 10px 10px
+            border-radius 4px
+            border none
+            text-align left
+            cursor pointer
+            span
+                font-family OpenSans-Regular, Arial, Verdana
+                font-size 16px
+                text-align left
+                color #fff
+            img
+                float left
+                margin-right 25px
+                width 25px
+    .hide
+        display none
+    .righ
+        width 300px
+    .accordeon
+        background #ffffff
+        box-shadow 0px 0px 15px #e8e8e8
+        border-radius 4px
+        border 1px solid #ececec
+        padding 10px
+        cursor pointer
+        display flex
+        width 100%
+        align-items center
+        box-sizing border-box
+        font-family OpenSans-Regular, Arial, Verdana
+        font-size 14px
+        color #787c7f 
+        &.portret
+            background url(../images/icons/foto.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.tablichki
+            background url(../images/icons/tablichki.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.mecheti
+            background url(../images/icons/mecheti.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.msimvol
+            background url(../images/icons/msimvol.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.muzor
+            background url(../images/icons/uzor.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.epitafiya
+            background url(../images/icons/epitafii.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.nadpis-izobrazhenie
+            background url(../images/icons/nadpis-izobrazhenie.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.hram
+            background url(../images/icons/hram.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.ikona
+            background url(../images/icons/ikona.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.angel
+            background url(../images/icons/angel.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.simvol
+            background url(../images/icons/simvolika.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.svechi
+            background url(../images/icons/svecha.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.krest
+            background url(../images/icons/krestik.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.pticy
+            background url(../images/icons/pticy.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.ramka
+            background url(../images/icons/ramka.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.vinetka
+            background url(../images/icons/vinetka.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.cvetok
+            background url(../images/icons/cvetok.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.peyzazh
+            background url(../images/icons/peyzazh.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.vetv
+            background url(../images/icons/vetvi.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.uzor
+            background url(../images/icons/uzor.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        &.voin
+            background url(../images/icons/voin.svg) left center no-repeat #ffffff
+            background-size 22px
+            background-position 10px 50%
+            padding 10px 10px 10px 40px
+        img
+            max-height 20px
+            margin-right 10px
+    .addImg
+        .text
+            padding 8px
+            width 270px
+            border 0
+            box-sizing border-box
+            margin-bottom 10px
+        .form
+            background #ffffff5d
+            margin 0
+            padding 15px
+            box-sizing border-box
+            span
+                min-width 100px
+            p
+                font-size 12px
+                margin-bottom 5px
+            select
+                padding 8px
+                border none
+                margin-bottom 10px
+                width 270px
+                box-sizing border-box
+
+.canvas-container
+    margin 0 auto
+    .deleteBtn
+        display none
+    .canvas-container
+        .deleteBtn
+            display flex
+    @media screen and (max-width: 650px)
+        max-width 240px !important
+        height 356px !important
+    @media screen and (max-width: 320px)
+        max-width 220px !important
+        height 327px !important
+
+#slide-mem
+    text-align center
+    background-color #fff
+    flex-wrap wrap
+    padding 10px 0
+    margin 20px 0 60px 0
+    box-sizing border-box
+    li
+        height 100px
+        display inline-block
+        cursor pointer
+        margin 10px
+        img
+            max-width 100%
+            max-height 100%
+
+#constructor .addImg, #constructor .addText
+    margin-bottom 5px
+
+#download
+    text-decoration none
+    color #ffffff
+    min-width 100%
+    min-height 100%
+    margin-left -20px
+
+.button-download
+    width auto
+    display flex
+    justify-content left
+    text-align left
+    background #2a77b9
+    padding 10px 10px 10px 10px
+    border-radius 4px
+    img
+        margin-right 25px
+        width 25px
+    span
+        font-family OpenSans-Regular, Arial, Verdana
+        font-size 16px
+
+#popup
+    position fixed
+    z-index 100
+    top 30%
+    left 50%
+    margin-left -200px
+    margin-top -105px
+    background-color #fff
+    width 400px
+    padding 30px
+    box-sizing border-box
+    border-radius 5px
+    -webkit-box-shadow 0px 0px 5px 0px rgba(0,0,0,0.75)
+    -moz-box-shadow 0px 0px 5px 0px rgba(0,0,0,0.75)
+    box-shadow 0px 0px 55px 0px #a9a9a987
+    h2
+        margin 0px 0px 15px !important
+        padding 0
+        font-family OpenSans-Bold, OpenSans-Regular, Arial, Verdana
+        font-size 16px
+    p
+        margin-bottom 15px
+        font-family OpenSans-Regular, Arial, Verdana
+        font-size 14px
+        input
+            margin-top 5px
+            padding 10px 10px
+            width 100%
+            box-sizing border-box
+            border-radius 3px
+            border 1px solid #d8d8d8
+            font-family OpenSans-Regular, Arial, Verdana
+    .button
+        width auto
+        background #0c4473
+        padding 7px 10px 7px 10px
+        border-radius 4px
+        border none
+        text-align left
+        cursor pointer
+        font-family OpenSans-Regular, Arial, Verdana
+        color #fff
+        font-size 16px
+    .close
+        cursor pointer
+        position absolute
+        top 10px
+        right 10px
+    .error
+        padding 0
+        color #fc5a5a
+
+@media screen and (max-width: 900px)
+    #constructor
+        flex-direction column
+        align-items center
+        .left
+            max-width 503px
+        .right
+            margin 0 0px 40px 0px
+            width 300px
+            float left
+    #slide-mem
+        max-width 503px
+        margin 20px auto
+
+@media screen and (max-width: 650px)
+    #constructor
+        flex-direction column
+        align-items center
+        display block
+        .left
+            max-width 240px
+            height 356px
+        .right
+            margin 0 0px 140px 10px
+            width 40px
+            float left
+            position relative
+            p
+                margin 15px 0px 15px !important
+                font-size 0px
+            ul
+                background #1c141c
+                margin 0px 0 0 0
+                border 2px solid #dc3522
+                max-height 300px
+                overflow-y auto
+                width 260px
+                padding 10px
+                box-sizing border-box
+                position absolute
+                right 40px
+                z-index 10
+            & > .button
+                width 300px
+                background #0c4473
+                padding 10px 10px 10px 10px
+                border-radius 4px
+                border none
+                text-align left
+                cursor pointer
+                right 0
+                position absolute
+                margin 40px 0 0 0
+            & > .button-zakaz
+                width 300px
+                background #ec0808
+                padding 10px 10px 10px 10px
+                margin 70px 0 0 0
+                border-radius 4px
+                border none
+                text-align left
+                cursor pointer
+                position absolute
+                right 0
+        .accordeon
+            display flex
+            width 100%
+            height 40px
+            font-size 0px
+    #slide-mem
+        max-width 240px
+        height 650px
+        overflow scroll
+        margin 20px auto
+        box-sizing border-box
+        border 1px solid #ccc
+    .button-download
+        width 280px
+        display flex
+        justify-content left
+        text-align left
+        background #2a77b9
+        padding 10px 10px 10px 10px
+        border-radius 4px
+        right 0
+        position absolute
+    #popup
+        position fixed
+        z-index 1
+        top 20px
+        left 0%
+        right 0%
+        margin 0px auto 0
+        background-color #fff
+        width 300px
+
+#c
+    @media screen and (max-width: 650px)
+        max-width 240px !important
+        height 356px !important
+    @media screen and (max-width: 320px)
+        max-width 220px !important
+        height 327px !important
+
+.upper-canvas
+    @media screen and (max-width: 650px)
+        max-width 240px !important
+        height 356px !important
+    @media screen and (max-width: 320px)
+        max-width 220px !important
+        height 327px !important
+
+.title-ul-adaptive
+    display none
+    @media screen and (max-width: 650px)
+        display block !important
+        background #dc3522
+        font-family OpenSans-Regular, "Courier New", Courier, monospace
+        font-size 14px
+        font-weight 400
+        margin -24 0 0 -260px
+        padding 3px 10px
+        position absolute
+        z-index 9999999
+    @media screen and (max-width: 320px)
+        display block !important
+        background #dc3522
+        font-family OpenSans-Regular, "Courier New", Courier, monospace
+        font-size 14px
+        font-weight 400
+        margin -24 0 0 -240px
+        padding 3px 10px
+        position absolute
+        z-index 9999999
+
+// #constructor .accordeon.portret,
+// #constructor .accordeon.tablichki,
+// #constructor .accordeon.mecheti,
+// #constructor .accordeon.msimvol,
+// #constructor .accordeon.muzor,
+// #constructor .accordeon.epitafiya,
+// #constructor .accordeon.nadpis-izobrazhenie,
+// #constructor .accordeon.hram,
+// #constructor .accordeon.ikona,
+// #constructor .accordeon.angel,
+// #constructor .accordeon.simvol,
+// #constructor .accordeon.svechi,
+// #constructor .accordeon.krest,
+// #constructor .accordeon.pticy,
+// #constructor .accordeon.ramka,
+// #constructor .accordeon.vinetka,
+// #constructor .accordeon.cvetok,
+// #constructor .accordeon.vetv,
+// #constructor .accordeon.uzor,
+// #constructor .accordeon.voin,
+// #constructor .accordeon.peyzazhi
+//     @media screen and (max-width: 650px)
+//         padding 10px 10px 10px 30px
+
+@media screen and (max-width: 320px)
+    #constructor
+        flex-direction column
+        align-items center
+        display block
+        .left
+            max-width 220px
+            height 327px
+        .right
+            margin 0 0px 140px 20px
+            width 40px
+            float left
+            position relative
+            p
+                margin 15px 0px 15px !important
+                font-size 0px
+            ul
+                background #1c141c
+                margin 0px 0 0 0
+                border 2px solid #dc3522
+                max-height 300px
+                overflow-y auto
+                width 260px
+                padding 10px
+                box-sizing border-box
+                position absolute
+                right 40px
+                z-index 10
+            & > .button
+                width 280px
+                background #0c4473
+                padding 10px 10px 10px 10px
+                border-radius 4px
+                border none
+                text-align left
+                cursor pointer
+                right 0
+                position absolute
+                margin 40px 0 0 0
+            & > .button-zakaz
+                width 280px
+                background #ec0808
+                padding 10px 10px 10px 10px
+                margin 70px 0 0 0
+                border-radius 4px
+                border none
+                text-align left
+                cursor pointer
+                position absolute
+                right 0
+        .accordeon
+            display flex
+            width 100%
+            height 40px
+            font-size 0px
+    #slide-mem
+        max-width 220px
+        height 650px
+        overflow scroll
+        margin 20px auto
+        box-sizing border-box
+        border 1px solid #ccc
+    .button-download
+        width 260px
+        display flex
+        justify-content left
+        text-align left
+        background #2a77b9
+        padding 10px 10px 10px 10px
+        border-radius 4px
+        right 0
+        position absolute
+    #popup
+        position fixed
+        z-index 1
+        top 20px
+        left 0%
+        right 0%
+        margin 0px auto 0
+        background-color #fff
+        width 200px
+
+// #constructor .accordeon.portret,
+//     #constructor .accordeon.tablichki,
+//     #constructor .accordeon.mecheti,
+//     #constructor .accordeon.msimvol,
+//     #constructor .accordeon.muzor,
+//     #constructor .accordeon.epitafiya,
+//     #constructor .accordeon.nadpis-izobrazhenie,
+//     #constructor .accordeon.hram,
+//     #constructor .accordeon.ikona,
+//     #constructor .accordeon.angel,
+//     #constructor .accordeon.simvol,
+//     #constructor .accordeon.svechi,
+//     #constructor .accordeon.krest,
+//     #constructor .accordeon.pticy,
+//     #constructor .accordeon.ramka,
+//     #constructor .accordeon.vinetka,
+//     #constructor .accordeon.cvetok,
+//     #constructor .accordeon.vetv,
+//     #constructor .accordeon.uzor,
+//     #constructor .accordeon.voin	
+// @media screen and (max-width: 320px)
+//     padding 10px 10px 10px 30px
+
+.formname
+    input[type=checkbox]
+        display none
+        & + label
+            display block
+            position relative
+            margin 20px 0 25px 40px !important
+            cursor pointer
+            line-height 140%
+            color #333333
+            font-family OpenSans-Regular, Arial, Verdana
+            font-size 13px
+            &:hover
+                color #337AB7
+            &:before
+                position absolute
+                content ''
+                width 18px
+                height 18px
+                line-height 18px
+                left -40px
+                top 7px
+                border 1px solid #d4d4d4
+    input[type=checkbox]:checked
+        & + label
+            &:before
+                content '\2714'
+                font-family OpenSans-Regular, Arial, Verdana
+                color #000000
+                font-size 12px
+                text-align center
+                font-weight 400
+                border 1px solid #16c60c
+    input[type=submit]
+        display block
+        cursor pointer
+        font-size 17px
+        font-family OpenSans-Regular, Arial, Verdana
+        padding 10px 30px
+        border 1px solid #275F8B
+        background #337AB7
+        color #000
+        transition .4s all
+        font-weight 400
+    input[type=submit]:hover
+        background #275F8B
+    input[disabled]
+        opacity .6
+        cursor not-allowed
+
+.pamyatnik-vnimanie
+    background url(../images/icons/vnimanie.svg) left center no-repeat #fff
+    background-size 25px
+    background-position 15px 50%
+    border 1px solid #dc3522
+    border-left 6px solid #dc3522
+    border-radius 0px
+    max-width 100% !important
+    margin 40px 0
+    padding 10px 10px 10px 60px
+    font-family OpenSans-Regular, GothaProBol, Tahoma
+    font-size 15px
+    color #000
+    text-align left
+    font-weight 300
+    line-height 140%
+
+p
+    font-family OpenSans-Regular, GothaProBol, Tahoma
+    font-size 16px
+    color #000
+    text-align left
+    margin 0px 0px 10px 0px
+    font-weight 300
+    line-height 140%
+
+
+.tabs-constructor 
+	position relative
+	margin 40px auto 0
+	width 100%
+	text-align center
+	label 
+		display inline-block
+		font-family OpenSans-Regular, "Courier New", Courier, monospace
+		font-size 17px
+		font-weight 400
+		border-bottom 2px solid #d4d4d4 !important
+		margin 20px 15px 20px 0%
+		padding 0 0px
+		color #000
+		cursor pointer
+		position relative
+		top 0px
+		min-width 30px
+		height 45px
+		line-height 45px
+		text-align left
+		z-index 1
+		margin 20px 10px 20px 0%
+		&:hover 
+			border-bottom 2px solid #f4f6f4
+	input 
+		position absolute
+		left -9999px
+.tab-constructor-img 
+	height 30px
+	width 30px
+	margin 0px 5px 0px 0%
+	float left
+	margin 0px 0px 0px 0%
+	img 
+		width 100%
+#tab-constructor_1:checked  ~ #tab-constructor_l1,
+#tab-constructor_2:checked  ~ #tab-constructor_l2,
+#tab-constructor_3:checked  ~ #tab-constructor_l3,
+#tab-constructor_4:checked  ~ #tab-constructor_l4,
+#tab-constructor_5:checked  ~ #tab-constructor_l5,
+#tab-constructor_6:checked  ~ #tab-constructor_l6,
+#tab-constructor_7:checked  ~ #tab-constructor_l7,
+#tab-constructor_8:checked  ~ #tab-constructor_l8,
+#tab-constructor_9:checked  ~ #tab-constructor_l9,
+#tab-constructor_10:checked  ~ #tab-constructor_l10 
+	border-bottom 2px solid #f44336 !important
+	color #000
+	padding 0 0px
+	top 0
+	z-index 3
+.tabs-constructor_cont 
+	min-height 370px
+	padding 0px 0 0 0
+	margin 20px 0 0 0
+	position relative
+	z-index 2
+	& > div 
+		position absolute
+		left -9999px
+		top 0
+		opacity 0
+		width 100%
+		-moz-transition opacity .5s ease-in-out
+		-webkit-transition opacity .5s ease-in-out
+		transition opacity .5s ease-in-out
+#tab-constructor_1:checked ~ .tabs-constructor_cont #tab-constructor_c1,
+#tab-constructor_2:checked ~ .tabs-constructor_cont #tab-constructor_c2,
+#tab-constructor_3:checked ~ .tabs-constructor_cont #tab-constructor_c3,
+#tab-constructor_4:checked ~ .tabs-constructor_cont #tab-constructor_c4,
+#tab-constructor_5:checked ~ .tabs-constructor_cont #tab-constructor_c5,
+#tab-constructor_6:checked ~ .tabs-constructor_cont #tab-constructor_c6,
+#tab-constructor_7:checked ~ .tabs-constructor_cont #tab-constructor_c7,
+#tab-constructor_8:checked ~ .tabs-constructor_cont #tab-constructor_c8,
+#tab-constructor_9:checked ~ .tabs-constructor_cont #tab-constructor_c9,
+#tab-constructor_10:checked ~ .tabs-constructor_cont #tab-constructor_c10 
+	position static
+	left 0
+	opacity 1
+
+@media screen and (max-width: 900px)
+    .tabs-constructor label 
+        font-size 0px
+
+    .tab-constructor-img 
+        margin 0px 0px 0px 0%
+
+    .tabs-constructor label 
+        margin 20px 10px 20px 0%
+
